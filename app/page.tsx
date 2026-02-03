@@ -1,4 +1,4 @@
-import Home from '@/componets/Helper/Home/Home'
+import Home from '@/componets/Home/Home'
 import React from 'react'
 
 const HomePage = () => {

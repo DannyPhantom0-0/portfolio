@@ -22,9 +22,12 @@ const ResumeCard = ({ role, Icon, date }: Props) => {
                         {date}
                     </h1>
                 )}
-                <h1 className="text-2xl sm:text-3xl font-bold text-white">
+                <h1 className="text-gray-200 text-xl sm:text-2xl font-semibold">
                     {role}
                 </h1>
+                <p className="text-gray-300 text-sm sm:text-base pt-3">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                </p>
             </div>
         </div>
       

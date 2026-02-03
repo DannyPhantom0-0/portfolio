@@ -3,6 +3,7 @@ import { FaCodepen, FaReact } from 'react-icons/fa'
 import { Fa0 } from 'react-icons/fa6'
 import ResumeCard from './ResumeCard'
 import { BsDash, BsDatabase } from 'react-icons/bs'
+import { BiBadge } from 'react-icons/bi'
 
 const Resume = () => {
   return (
@@ -21,7 +22,16 @@ const Resume = () => {
             </div>
 
             {/* EDUCATION PART */}
-            <div> EDUCATION PART</div>
+            <div> 
+                <h1 className="text-3xl sm:text-4xl font-bold text-white">
+                    My <span className="text-cyan-200">Education</span>
+                </h1>
+                <div className="mt-10">
+                    <ResumeCard Icon={BiBadge} role="WeThinkCode_" date="Sept 2024 - Dec 2025"/>
+                    <ResumeCard Icon={FaReact} role="Occupational Certificate: Software Engineer" date="Sept 2024 - Dec 2025"/>
+                </div>
+
+            </div>
 
         </div>
       
