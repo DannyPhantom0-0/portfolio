@@ -11,7 +11,7 @@ const Projects = () => {
             <div>
                 <Image src="/images/project1.png" alt="img" width={800} height={650} className="rounded-lg"/>
                 <h1 className="mt-4 text-xl sm:text-2xl font semibolt text-white">
-                    Java Mathematicl Calculator
+                    Java Mathematical Calculator
                 </h1>
                 <h1 className="pt-2 font-medium text-white/80">Java</h1>
             </div>
