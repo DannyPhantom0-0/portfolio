@@ -9,6 +9,7 @@ import Contact from './Contact/Contact'
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 
+
 const Home = () => {
 
   useEffect(() => {
@@ -27,7 +28,7 @@ const Home = () => {
   return (
     <div className='overflow-hidden'>
       <Hero/>
-      <Services/>
+      {/* <Services/> */}
       <Resume/> 
       <Projects/>
       <Skills/>

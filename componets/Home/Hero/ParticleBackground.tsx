@@ -35,9 +35,9 @@ export default function ParticlesHero() {
         color: { value: "transparent" }, // Transparent for overlay use
       },
       fullScreen: {
-        enable: false,
+        enable: true,
       },
-      fpsLimit: 60,
+      fpsLimit: 120,
       interactivity: {
         events: {
           onClick: { enable: true, mode: "push" },

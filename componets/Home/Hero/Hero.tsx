@@ -13,10 +13,10 @@ const Hero = () => {
 
       <div className="relative z-10  flex flex-col items-center" >
         <Image 
-          src="/images/Me2.jpeg" 
+          src="/images/me2.jpeg" 
           alt="heroimage" 
-          width={150} 
-          height={150} 
+          width={250} 
+          height={300} 
           className="rounded-full border-8 border-[#0c0c48aa]" 
           data-aos="fade-up"
         />

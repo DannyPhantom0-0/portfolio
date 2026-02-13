@@ -1,7 +1,7 @@
 import { url } from "inspector"
 
 export const Navlinks = [
-    {
+   {
         id: 1,
         url: "#",
         Label: "Home"
@@ -10,36 +10,24 @@ export const Navlinks = [
         {
         id: 2,
         url: "#",
-        Label: "Services"
+        Label: "Resume"
     },
 
         {
         id: 3,
         url: "#",
-        Label: "Resume"
+        Label: "Work"
     },
 
         {
         id: 4,
         url: "#",
-        Label: "Works"
-    },
-
-        {
-        id: 5,
-        url: "#",
         Label: "Skills"
-    },
-
-        {
-        id: 6,
-        url: "#",
-        Label: "Testimonials"
     },
     
         {
-        id: 7,
+        id: 5,
         url: "#",
         Label: "Contact"
-    },
+    }
 ]
